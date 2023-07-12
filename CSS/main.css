@@ -157,3 +157,20 @@ body {
     width: 40px;
     border-radius: 50%;
 }
+.one ,
+.three {
+    position: relative;
+    
+}
+.one {
+    transform: translateY(-15px);
+}
+.three {
+    transform: translateY(15px);
+}
+@media (max-width : 992px) {
+    .one , .three {
+        transform: translateY(0px);
+    }
+
+}
