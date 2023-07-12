@@ -160,10 +160,9 @@ body {
 .one ,
 .three {
     position: relative;
-    
 }
 .one {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
 }
 .three {
     transform: translateY(15px);
@@ -172,5 +171,4 @@ body {
     .one , .three {
         transform: translateY(0px);
     }
-
 }
